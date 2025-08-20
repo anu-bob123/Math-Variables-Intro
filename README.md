@@ -6,8 +6,10 @@ class Main {
     System.out.println("Hello world!");
 
     //We will be using System.out.println and System.out.print throughout the year. Try using both below to see what the difference is!
-System.out.println("Hello");
-System.out.print("Hello");
+ System.out.println("hello Meghana");
+System.out.print("Heheheheheheeh ");
+System.out.println("This would be on the same line as Heheheh");
+
 
 
 
@@ -29,13 +31,14 @@ System.out.print("Hello");
     //int (integer): 
     //double:
     //boolean:
-    int count = 100;
-    double carA,carB,carC=15.2
-
+    
     //For now we are just going to work with primitive
 
     //Create 3 variables of each of the above types (USE GOOD CODING PRACTICE WHEN CREATING THE VARIABLES
-
+    /*int num=5;
+    double num2=5.5;
+    boolean Lie=false;
+    int num5=5;*/
 
 
 
@@ -46,14 +49,23 @@ System.out.print("Hello");
     //+ - * / %
 
     //Try doing some math operations with numbers. How can we check to see if the math worked?
+    System.out.println(5+5);
+    System.out.println(5-5);
+    System.out.println(10/3.0);
+    System.out.println(10%3);
 
     //Create codes that will print the following:
 
     //Odd integers from 1 to 100, inclusive of both
+    for (int odd =1; odd <=100; odd=odd+2)
+    {
+      System.out.print( odd +" ");
+    }
 
 
 
     //All multiples of 3 from 1 to 100
+    System.out.println("all multiples of three from 1-100:")
 
 
 
