@@ -65,11 +65,22 @@ System.out.println("This would be on the same line as Heheheh");
 
 
     //All multiples of 3 from 1 to 100
-    System.out.println("all multiples of three from 1-100:")
+    System.out.println("all multiples of three from 1-100:");
+    for(int three=3;three<=100;three=three + 3)
+    {
+      System.out.print( three + " ");
+    }
+    System.out.println("");
+
 
 
 
 
     //Starting at 1000, print on the same line (with a - [hypthen] between each) all of the numbers that end in 0 going down to 0
+    System.out.println("all of the numbers that end in 0 going down to 0:");
+    for(int zeros=0;zeros<=1000;zeros=zeros+10){
+      System.out.print(zeros + " ");
+    }
   }
 }
+
